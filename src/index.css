@@ -61,7 +61,7 @@ code {
   min-height: 100vh;
 }
 
-/* Left Section Styles */
+
 .left-section {
   position: fixed;
   height: 100vh;
@@ -200,7 +200,7 @@ code {
   color: white;
 }
 
-/* Right Section Styles */
+
 .right-section {
   width: 60%;
   margin-left: 40%;
@@ -330,7 +330,7 @@ code {
   margin-left: 1rem;
 }
 
-/* About Section Styles */
+
 .about-content {
   display: flex;
   flex-direction: column;
@@ -368,7 +368,7 @@ code {
   font-size: 1rem;
 }
 
-/* Experience Section Styles */
+
 .experience-timeline {
   position: relative;
 }
@@ -559,7 +559,7 @@ code {
   border: 1px solid rgba(59, 130, 246, 0.2);
 }
 
-/* Resume Section Styles */
+
 .resume-content {
   text-align: center;
   /* padding: 2rem 0; */
@@ -647,7 +647,6 @@ code {
   box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
 }
 
-/* Responsive Styles */
 @media (max-width: 1024px) {
   .left-section {
     width: 35%;
@@ -785,3 +784,50 @@ code {
 .project-header{
   text-align: left;
 }
+.skills-section {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.skills-heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(222, 213, 213, 0.05);
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.skill-item:hover {
+  transform: scale(1.05);
+}
+
+.skill-icon {
+  font-size: 1.2rem;
+}
+
+.skill-icon.js { color: #F7DF1E; }
+.skill-icon.react { color: #61DBFB; }
+.skill-icon.vue { color: #42B883; }
+.skill-icon.next { color: #000; }
+.skill-icon.python { color: #3776AB; }
+.skill-icon.sql { color: #D48F00; }
+.skill-icon.html { color: #E44D26; }
+.skill-icon.css { color: #1572B6; }
+.skill-icon.tailwind { color: #06B6D4; }
+.skill-icon.bootstrap { color: #7952B3; }

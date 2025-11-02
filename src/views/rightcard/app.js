@@ -40,7 +40,7 @@ function Rightcard({ activeSection, setActiveSection, showNavButtons, isMobile, 
     {
       id: 2,
       name: "The Daily Tool Box",
-      description: "A comprehensive utility platform offering everyday tools such as stopwatch, timer, calculators, converters, and productivity utilities — all in one place. Built with performance and simplicity in mind to deliver quick, accessible solutions for users (Not Deployed Yet).",
+      description: "A comprehensive utility platform offering everyday tools such as stopwatch, timer, calculators, converters, and productivity utilities — all in one place. Built with performance and simplicity in mind to deliver quick, accessible solutions for users. (Not Deployed Yet)",
       technologies: ["JavaScript", "React.js", 'Tailwind CSS', "Web Api's"],
       githubLink: "https://github.com/srinivasakula-dev",
       // liveLink: "https://example.com",
@@ -97,7 +97,6 @@ function Rightcard({ activeSection, setActiveSection, showNavButtons, isMobile, 
       )}
 
       <div className="content-container">
-        {/* About Section */}
         <section ref={aboutRef} className="section" id="about">
           <div className="intro">
             <p className="greeting">Hi, my name is</p>
@@ -123,9 +122,6 @@ function Rightcard({ activeSection, setActiveSection, showNavButtons, isMobile, 
                 <p>
                   
                 </p>
-                {/* <p>
-                  My Main focus these days is building next-gen developer tools for GoogleTV at Google.
-                </p> */}
               </div>
               <div className="tech-section">
                 <p>Here are a few technologies I have been working with recently:</p>
@@ -156,7 +152,7 @@ function Rightcard({ activeSection, setActiveSection, showNavButtons, isMobile, 
           </div>
         </section>
 
-        {/* Experience Section */}
+
         <section ref={experienceRef} className="section" id="experience">
           <div className="section-content">
             <div className="section-header">
@@ -240,7 +236,7 @@ function Rightcard({ activeSection, setActiveSection, showNavButtons, isMobile, 
           </div>
         </section>
 
-        {/* Projects Section */}
+
         <section ref={projectsRef} className="" id="projects">
           <div className="section-content">
             <div className="section-header">
@@ -287,7 +283,7 @@ function Rightcard({ activeSection, setActiveSection, showNavButtons, isMobile, 
           </div>
         </section>
 
-        {/* Resume Section */}
+
        <section ref={resumeRef} className="section" id="resume">
           <div className="section-content">
             <div className="section-header">
@@ -297,7 +293,6 @@ function Rightcard({ activeSection, setActiveSection, showNavButtons, isMobile, 
             <div className="resume-content">
               <div className="resume-preview">
                 <div className="resume-image-container">
-                  {/* Replace this with the path to your resume image */}
                   <img 
                     src="images/resume.png" 
                     alt="Srinivas Akula Resume" 

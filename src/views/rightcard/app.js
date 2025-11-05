@@ -100,7 +100,7 @@ function Rightcard({ activeSection, setActiveSection, showNavButtons, isMobile, 
         <section ref={aboutRef} className="section" id="about">
           <div className="intro">
             <p className="greeting">Hi, my name is</p>
-            <h1 className="name-large">Srinivas Akula.</h1>
+            <h1 className="name-large">Srinivas Akula</h1>
             <h2 className="tagline">I design and develop impactful digital experiences.</h2>
             <p className="description">
               I'm a Software Engineer passionate about building intuitive, high-quality digital experiences and developer-focused tools. I specialize in creating reliable, user-friendly solutions that combine clean design with strong technical foundations.

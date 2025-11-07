@@ -67,7 +67,7 @@ function Rightcard({ activeSection, setActiveSection, showNavButtons, isMobile, 
 
   return (
     <div className="right-section">
-      {!isMobile && (
+      {!isMobile && ( 
         // ${activeSection === 'about' ? 'active' : ''}`
         // active add like above to selected value persisting in highlight
         <div className={`floating-nav ${showNavButtons ? 'visible' : ''}`}>

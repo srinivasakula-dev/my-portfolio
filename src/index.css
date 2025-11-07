@@ -475,6 +475,7 @@ code {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.5rem;
   margin-top: 1rem;
+  flex-wrap: wrap;
 }
 
 .project-card {
@@ -831,3 +832,49 @@ code {
 .skill-icon.css { color: #1572B6; }
 .skill-icon.tailwind { color: #06B6D4; }
 .skill-icon.bootstrap { color: #7952B3; }
+@media (max-height: 700px) {
+  .left-section {
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+  .skills-grid{
+    gap: 0.5rem;
+  } 
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+  }
+
+  .name {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+
+  .bio {
+    font-size: 0.85rem;
+    text-align: center;
+  }
+
+  .skills-section {
+    margin-top: 1rem;
+  }
+
+  .skill-item {
+    font-size: 0.8rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

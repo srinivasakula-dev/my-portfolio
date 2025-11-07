@@ -68,27 +68,29 @@ function Rightcard({ activeSection, setActiveSection, showNavButtons, isMobile, 
   return (
     <div className="right-section">
       {!isMobile && (
+        // ${activeSection === 'about' ? 'active' : ''}`
+        // active add like above to selected value persisting in highlight
         <div className={`floating-nav ${showNavButtons ? 'visible' : ''}`}>
           <button 
-            className={`nav-btn ${activeSection === 'about' ? 'active' : ''}`}
+            className={`nav-btn ${activeSection === 'about' ? '' : ''}`}
             onClick={() => setActiveSection('about')}
           >
             About
           </button>
           <button 
-            className={`nav-btn ${activeSection === 'experience' ? 'active' : ''}`}
+            className={`nav-btn ${activeSection === 'experience' ? '' : ''}`}
             onClick={() => setActiveSection('experience')}
           >
             Experience
           </button>
           <button 
-            className={`nav-btn ${activeSection === 'projects' ? 'active' : ''}`}
+            className={`nav-btn ${activeSection === 'projects' ? '' : ''}`}
             onClick={() => setActiveSection('projects')}
           >
             Projects
           </button>
           <button 
-            className={`nav-btn ${activeSection === 'resume' ? 'active' : ''}`}
+            className={`nav-btn ${activeSection === 'resume' ? '' : ''}`}
             onClick={() => setActiveSection('resume')}
           >
             Resume
@@ -109,8 +111,7 @@ function Rightcard({ activeSection, setActiveSection, showNavButtons, isMobile, 
 
           <div className="section-content">
             <div className="section-header">
-              <span className="section-number">01.</span>
-                <h2>About me</h2>
+                <h2> <span className="section-number">01.</span> About me</h2>
               <div className="section-line"></div>
             </div>
             <div className="about-content">
@@ -156,8 +157,8 @@ function Rightcard({ activeSection, setActiveSection, showNavButtons, isMobile, 
         <section ref={experienceRef} className="section" id="experience">
           <div className="section-content">
             <div className="section-header">
-              <span className="section-number">02.</span>
-              <h2>Where I have worked</h2>
+              
+              <h2> <span className="section-number">02.</span> Where I have worked</h2>
               <div className="section-line"></div>
             </div>
             
